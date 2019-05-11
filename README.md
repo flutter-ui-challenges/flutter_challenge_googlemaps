@@ -16,7 +16,7 @@ Using Flutter💪  to implement the UI challenge of Google Maps on [uplabs](http
 
 [demo.apk](apk/app.apk)
 
-#### 项目介绍  introduction
+#### 项目介绍  Introduction
 
 | Branch                                                       | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
