@@ -16,6 +16,13 @@ Using Flutter💪  to implement the UI challenge of Google Maps on [uplabs](http
 
 [demo.apk](apk/app.apk)
 
+#### 项目介绍  introduction
+
+| Branch                                                       | Description                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [master](<https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps>) | use `setState` to notify UI update                           |
+| [provide](https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps/tree/provide) | use  [flutter-provide](https://github.com/google/flutter-provide) to notify UI update |
+
 ### 挑战 Challenge 
 
 ![](ui/all.png)
