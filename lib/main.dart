@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provide/provide.dart';
 
 import 'home_page.dart';
+import 'home_provide.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +24,10 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primaryColor: Color(0xFF707070),
       ),
-      home: GoogleMapPage(),
+      home: ProviderNode(
+        child: GoogleMapPage(),
+        providers: Providers()..provideValue(HomeProvide()),
+      ),
     );
   }
 }
