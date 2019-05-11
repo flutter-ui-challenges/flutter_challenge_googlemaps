@@ -2,7 +2,7 @@
 
 # flutter_challenge_googlemaps
 
-Implemented the UI of the Google Maps in [uplabs](https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5) by Flutter💪.
+Using Flutter💪  to implement the UI challenge of Google Maps on [uplabs](https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5) .
 
 使用Flutter实现uplabs上Google Maps的UI挑战
 
