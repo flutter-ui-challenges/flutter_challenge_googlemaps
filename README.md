@@ -12,10 +12,6 @@ Using Flutter💪  to implement the UI challenge of Google Maps on [uplabs](http
 >
 > Developer : [ditclear](https://github.com/ditclear)
 
-Using Flutter💪 to implement the UI challenges on Uplabs. 使用Flutter来完成Uplabs上的UI挑战。
-
-You can join us by implementing one of them.你可以通过实现其中一种来加入我们。
-
 #### DownLoad 
 
 [demo.apk](apk/app.apk)
