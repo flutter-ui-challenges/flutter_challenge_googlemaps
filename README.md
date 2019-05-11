@@ -6,11 +6,15 @@ Using Flutter💪  to implement the UI challenge of Google Maps on [uplabs](http
 
 使用Flutter实现uplabs上Google Maps的UI挑战
 
-> Desigener : [Joydeep Sengupta](https://www.uplabs.com/joydeeproni)
+> Designer : [Joydeep Sengupta](https://www.uplabs.com/joydeeproni)
 >
 > Uplabs : <https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5>
 >
 > Developer : [ditclear](https://github.com/ditclear)
+
+Using Flutter💪 to implement the UI challenges on Uplabs. 使用Flutter来完成Uplabs上的UI挑战。
+
+You can join us by implementing one of them.你可以通过实现其中一种来加入我们。
 
 #### DownLoad 
 
