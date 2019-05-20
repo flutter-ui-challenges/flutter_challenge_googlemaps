@@ -4,7 +4,7 @@
 
 Use Flutter💪  to implement the UI challenge of Google Maps on [uplabs](https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5) .
 
-使用Flutter实现uplabs上Google Maps的UI挑战
+[中文版本](README_CN.md)
 
 > Designer : [Joydeep Sengupta](https://www.uplabs.com/joydeeproni)
 >
@@ -16,14 +16,14 @@ Use Flutter💪  to implement the UI challenge of Google Maps on [uplabs](https:
 
 [demo.apk](apk/app.apk)
 
-#### 项目介绍  Introduction
+#### Introduction
 
 | Branch                                                       | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [master](<https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps>) | use `setState` to notify UI update                           |
 | [provide](https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps/tree/provide) | use  [flutter-provide](https://github.com/google/flutter-provide) to notify UI update |
 
-### 挑战 Challenge 
+### Challenge 
 
 ![](ui/all.png)
 
