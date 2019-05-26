@@ -124,8 +124,8 @@ class _GoogleMapState extends State<GoogleMapPage> with TickerProviderStateMixin
 
   @override
   Widget build(BuildContext context) {
-    screenWidth ??= MediaQuery.of(context).size.width;
-    screenHeight ??= MediaQuery.of(context).size.height;
+    screenWidth = MediaQuery.of(context).size.width;
+    screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: SizedBox(
         width: screenWidth,
