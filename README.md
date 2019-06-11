@@ -2,7 +2,7 @@
 
 # flutter_challenge_googlemaps
 
-Use Flutter💪  to implement the UI challenge of Google Maps on [uplabs](https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5) .
+Use go-Flutter💪  to implement the UI challenge of Google Maps on [uplabs](https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5) .
 
 [中文版本](README_CN.md)
 
@@ -12,16 +12,30 @@ Use Flutter💪  to implement the UI challenge of Google Maps on [uplabs](https:
 >
 > Developer : [ditclear](https://github.com/ditclear)
 
-#### DownLoad 
-
-[demo.apk](apk/app.apk)
-
 #### Introduction
 
 | Branch                                                       | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [master](<https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps>) | use `setState` to notify UI update                           |
 | [provide](https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps/tree/provide) | use  [flutter-provide](https://github.com/google/flutter-provide) to notify UI update |
+| [desktop](https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps/tree/desktop) | use [go-flutter](https://github.com/go-flutter-desktop/go-flutter) to implement UI on Desktop |
+
+### Install
+
+1. Install Go, since Go flutter is written in Go, you need to install the Go toolkit. <https://golang.google.cn/dl/>
+2. Install hover, hover is a command line tool from Go Flutter that simplifies project initialization and running steps.
+
+> go get -u github.com/go-flutter-desktop/hover 
+
+Configuring the hover environment
+
+> export PATH=$PATH:/usr/local/go/bin
+>
+> export PATH=$PATH:/Users/{UserName}/go/bin
+
+3. Enter the flutter project and run.
+
+> hover run
 
 ### Challenge 
 
@@ -36,12 +50,6 @@ Use Flutter💪  to implement the UI challenge of Google Maps on [uplabs](https:
 ![](ui/preview.gif)
 
 
-
-#### 不用客气，buy Me a Lunch ~
-
-|                            Alipay                            |                          WeChatPay                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![](https://camo.githubusercontent.com/fbaa3ecc28af039c8e6011ddf473e51d2a08c8d2/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333732323639352d666664653137306665633933316561652e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f333430) | ![](https://camo.githubusercontent.com/ade43488617a69c72d5be1841fd4d0934689a3b0/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333732323639352d316238323761353465633237346535392e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f333430) |
 
 ### License
 

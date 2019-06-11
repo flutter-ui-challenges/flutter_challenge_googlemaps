@@ -2,7 +2,7 @@
 
 # flutter_challenge_googlemaps
 
-使用Flutter实现[uplabs](https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5)上Google Maps的UI挑战
+使用go-flutter实现[uplabs](https://www.uplabs.com/posts/google-maps-redesign-919dd0d6-0883-4378-b5b2-f77e36adb6b5)上Google Maps的UI挑战
 
 > 设计师 : [Joydeep Sengupta](https://www.uplabs.com/joydeeproni)
 >
@@ -10,16 +10,35 @@
 >
 > 开发者 : [ditclear](https://github.com/ditclear)
 
-#### 下载体验
-
-[demo.apk](apk/app.apk)
-
 #### 项目介绍 
 
-| 分支                                                         | 描述                               |
-| ------------------------------------------------------------ | ---------------------------------- |
-| [master](<https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps>) | 使用 `setState` 来通知UI更新       |
-| [provide](https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps/tree/provide) | 使用  [flutter-provide来通知UI更新 |
+| 分支                                                         | 描述                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [master](<https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps>) | 使用 `setState` 来通知UI更新                                 |
+| [provide](https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps/tree/provide) | 使用  [flutter-provide来通知UI更新                           |
+| [desktop](https://github.com/flutter-ui-challenges/flutter_challenge_googlemaps/tree/desktop) | 使用 [go-flutter](https://github.com/go-flutter-desktop/go-flutter) 来完成桌面端 |
+
+### 运行
+
+1. 安装Go ，由于Go flutter使用Go编写，所以需要安装Go工具包。大家可以在[官网下载安装](https://link.juejin.im/?target=https%3A%2F%2Fgolang.org%2Fdoc%2Finstall)
+
+2. 安装hover，hover是 Go Flutter的一个命令行工具，简化了项目初始化以及运行等步骤。
+
+   使用下面命令安装
+
+   ```
+   go get -u github.com/go-flutter-desktop/hover
+   ```
+
+配置hover路径
+
+> export PATH=$PATH:/usr/local/go/bin
+>
+> export PATH=$PATH:/Users/{你的用户名}/go/bin
+
+3. 进入项目 运行程序
+
+> hover run
 
 ### 效果图
 
@@ -34,12 +53,6 @@
 ![](ui/preview.gif)
 
 
-
-#### 不用客气，buy Me a Lunch ~
-
-|                            Alipay                            |                          WeChatPay                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![](https://camo.githubusercontent.com/fbaa3ecc28af039c8e6011ddf473e51d2a08c8d2/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333732323639352d666664653137306665633933316561652e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f333430) | ![](https://camo.githubusercontent.com/ade43488617a69c72d5be1841fd4d0934689a3b0/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f333732323639352d316238323761353465633237346535392e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f333430) |
 
 ### License
 
